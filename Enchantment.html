@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enchantment官网</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #121212; /* 暗黑色背景 */
+        }
+        .btn {
+            padding: 14px 36px;
+            font-size: 18px;
+            border: none;
+            border-radius: 0; /* 方正按钮 */
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        .download-btn {
+            background-color: #9c27b0; /* 紫色 */
+            color: white;
+        }
+        .buy-btn {
+            background-color: #2e7d32; /* 绿色 */
+            color: white;
+        }
+        .btn:hover {
+            opacity: 0.85;
+            transform: translateY(-1px);
+        }
+        /* 按钮上下间距 */
+        .link-btn + .link-btn {
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 立即下载按钮（替换 href 里的网址为你的下载链接） -->
+    <a href="https://baidu.com" target="_blank" class="link-btn">
+        <button class="btn download-btn">立即下载</button>
+    </a>
+
+    <!-- 购买卡密按钮（替换 href 里的网址为你的购买链接） -->
+    <a href="http://qyfk.qejnd.com/links/6B580E7B" target="_blank" class="link-btn">
+        <button class="btn buy-btn">购买卡密</button>
+    </a>
+</body>
+</html>
